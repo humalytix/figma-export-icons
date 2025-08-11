@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "major": {
+    "enabled": false
+  },
+  "minor": {
+    "enabled": true
+  },
+  "prConcurrentLimit": 5,
+  "prHourlyLimit": 5,
+  "automerge": false,
+  "requiredStatusChecks": [
+    "renovate/all"
+  ]
+}
